@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Atole | Full Stack Web Developer</title>
+    <meta name="description"
+        content="Portfolio of Aditya, a Full Stack Web Developer and IT Student passionate about building modern web applications.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container navbar">
+            <div class="logo">
+                <a href="#hero" class="logo-link">
+                    <div class="logo-symbol">AA</div>
+                    <div class="logo-text">
+                        <span class="logo-name">Aditya Atole</span>
+                        <span class="logo-role">Full Stack Web Developer</span>
+                    </div>
+                </a>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" aria-label="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="reveal">
+            <div class="container hero-wrapper">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Aditya Atole</span>
+                    </h1>
+                    <span class="hero-role">Full Stack Web Developer/ IT Student</span>
+                    <p class="hero-tagline">
+                        I develop end-to-end web applications with a focus on accessibility, performance, and clean
+                        architecture.
+                        I enjoy solving complex problems by building scalable front-end interfaces and efficient
+                        back-end systems.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn-primary">Get in Touch</a>
+                        <a href="resume/Aditya_Vinod_Atole_Resume.pdf" class="btn-secondary glow-btn" download>Download
+                            Resume</a>
+                    </div>
+                    <div class="hero-social-colored">
+                        <a href="https://www.linkedin.com/in/aditya-atole-257ab4337" target="_blank"
+                            aria-label="LinkedIn" class="social-icon-btn linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/adiatole31-beep" target="_blank" aria-label="GitHub"
+                            class="social-icon-btn github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:adiatole31@gmail.com" aria-label="Email" class="social-icon-btn mail">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="img-bg"></div>
+                    <!-- Replace src with your actual photo path like 'images/profile.jpg' -->
+                    <img src="images/profile.jpg" alt="Aditya Atole Profile Photo" class="profile-pic">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="reveal-blur">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+
+                <p class="about-intro">
+                    I’m an IT Engineering student and aspiring Full Stack Web Developer passionate about building
+                    scalable
+                    solutions.
+                </p>
+
+                <div class="about-cards">
+                    <!-- Card 1 -->
+                    <div class="card reveal-item">
+                        <div class="card-icon">🤖</div>
+                        <h3>AI & Innovation</h3>
+                        <div class="card-content">
+                            <p>Exploring the frontiers of Artificial Intelligence to create smarter applications.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card reveal-item">
+                        <div class="card-icon">💻</div>
+                        <h3>Full Stack Dev</h3>
+                        <div class="card-content">
+                            <p>Building end-to-end web solutions with modern frameworks like React & Node.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card reveal-item">
+                        <div class="card-icon">🧩</div>
+                        <h3>Problem Solving</h3>
+                        <div class="card-content">
+                            <p>Turning complex challenges into clean, efficient, and maintainable code.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="card reveal-item">
+                        <div class="card-icon">🎯</div>
+                        <h3>Vision</h3>
+                        <div class="card-content">
+                            <p>Committed to continuous learning and making a real-world impact through tech.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="reveal-right">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills-wrapper">
+                    <!-- Category 1: Languages -->
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-java icon-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-python icon-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-copyright icon-c"></i>
+                                <span>C</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code icon-cpp"></i>
+                                <span>C++</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Web Technologies -->
+                    <div class="skill-category">
+                        <h3>Web Technologies</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-html5 icon-html"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt icon-css"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js icon-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-react icon-react"></i>
+                                <span>React</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Tools -->
+                    <div class="skill-category">
+                        <h3>Tools & Platforms</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fas fa-code icon-vscode"></i>
+                                <span>VS Code</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-github icon-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-pen-nib icon-canva"></i>
+                                <span>Canva</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-moon icon-eclipse"></i>
+                                <span>Eclipse</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Experience Section (New) -->
+        <section id="experience" class="reveal-left">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3 class="job-title">Full Stack Web Developer Intern</h3>
+                        <span class="job-company">YugaYatra Retail (OPC) Private Limited</span>
+                        <span class="job-date">1 Dec 2025 - 1 Feb 2026</span>
+                        <ul style="padding-left: 20px; margin-top: 0.5rem; color: var(--text-secondary);">
+                            <li>Developing a website/App Using Cursor AI, Firebase Studio, AI Technologies.</li>
+                            <li>Designing using Canva and freelancing on Upwork.</li>
+                            <li>Working on seller portals for Amazon and Flipkart.</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-item">
+                        <h3 class="job-title">Full Stack Web Developement Intern</h3>
+                        <span class="job-company">Unified Mentor Pvt.Ltd</span>
+                        <span class="job-date">2 Jan 2026 – 2 April 2026</span>
+                        <ul style="padding-left: 20px; margin-top: 0.5rem; color: var(--text-secondary);">
+                            <li>Worked on full-stack web application development using modern frameworks and tools.</li>
+                            <li>Implemented frontend UI/UX designs and backend integrations.</li>
+                            <li>Collaborated with team members to build scalable and efficient solutions.</li>
+                            <li>Gained hands-on experience with real-world development workflows and deployment.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="portfolio" class="reveal-scale">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="project-grid">
+
+
+                    <!-- Project 2 (Calculator) -->
+                    <article class="project-card reveal-project-card">
+                        <div class="project-img">
+                            <img src="images/calculator-preview.png" alt="Basic Calculator Preview">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Basic Calculator</h3>
+                            <p class="project-desc">A basic calculator web application designed to perform essential
+                                arithmetic operations like addition, subtraction, multiplication, and division. Built
+                                with a clean UI for fast and accurate calculations.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/adiatole31-beep/Basic-Calculator" class="link-icon"
+                                    title="GitHub Repo" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://adiatole31-beep.github.io/Basic-Calculator/" class="link-icon"
+                                    title="Live Demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 (Tic-Tac-Toe) -->
+                    <article class="project-card reveal-project-card">
+                        <div class="project-img">
+                            <img src="images/tic-tac-toe-preview.png" alt="Tic-Tac-Toe Preview">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Interactive Tic-Tac-Toe</h3>
+                            <p class="project-desc">A polished Tic-Tac-Toe game featuring smooth animations, neon UI
+                                elements, and a scoreboard. Built with vanilla JavaScript for performance.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">CSS Animation</span>
+                                <span class="tech-tag">HTML5</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/adiatole31-beep/Tic-Tac-Toe-Game" class="link-icon"
+                                    title="GitHub Repo" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://adiatole31-beep.github.io/Tic-Tac-Toe-Game/" class="link-icon"
+                                    title="Live Demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="reveal-blur">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    <!-- B.E. Education -->
+                    <div class="education-card reveal-edu-card">
+                        <div class="edu-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="edu-details">
+                            <h3 class="edu-degree">B.E. in Information Technology</h3>
+                            <span class="edu-university">Savitribai Phule Pune University</span>
+                            <span class="edu-college">JSPM Bhivarabai Sawant Institute of Technology and Research</span>
+                            <span class="edu-college">2024 — 2028</span>
+                            <div class="edu-score">
+                                <span class="score-label">First year CGPA:</span>
+                                <span class="score-value">8.70</span>
+                            </div>
+                            <div class="edu-subjects">
+                                <span class="subject-tag">Java</span>
+                                <span class="subject-tag">Python</span>
+                                <span class="subject-tag">C++</span>
+                                <span class="subject-tag">Data Structure</span>
+                                <span class="subject-tag">Algorithms</span>
+                                <span class="subject-tag">DBMS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HSC Education -->
+                    <div class="education-card reveal-edu-card">
+                        <div class="edu-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="edu-details">
+                            <h3 class="edu-degree">Intermediate (12th Grade)</h3>
+                            <span class="edu-university">Tuljaram Chaturchand College Of Arts, Science and Commerce,
+                                Baramati.</span>
+                            <span class="edu-college">2023 — 2024</span>
+                            <div class="edu-score">
+                                <span class="score-label">Percentage:</span>
+                                <span class="score-value">78.50%</span>
+                            </div>
+                            <div class="edu-subjects">
+                                <span class="subject-tag">Mathematics</span>
+                                <span class="subject-tag">Physics</span>
+                                <span class="subject-tag">Chemistry</span>
+                                <span class="subject-tag">English</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates">
+            <div class="container">
+                <h2 class="section-title">Certificates</h2>
+                <div class="bento-grid">
+                    <!-- Feature: JPMorgan -->
+                    <div class="bento-item reveal-bento">
+                        <div class="cert-icon-mini"><i class="fas fa-code"></i></div>
+                        <div class="bento-content">
+                            <span class="cert-date">22nd, Sept 2025</span>
+                            <h3 class="cert-title">Software Engineering</h3>
+                            <p class="cert-subtitle">Virtual Job Simulation</p>
+                            <p class="cert-issuer">JPMorgan Chase Co. (Forage)</p>
+                            <a href="certificates/Software Enginneering Certificate Forage.pdf" target="_blank"
+                                class="bento-link" title="Visit Certificate">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Wide: TATA -->
+                    <div class="bento-item reveal-bento">
+                        <div class="cert-icon-mini"><i class="fas fa-brain"></i></div>
+                        <div class="bento-content">
+                            <span class="cert-date">14th, Sept 2025</span>
+                            <h3 class="cert-title">GenAI Powered Data Analytics</h3>
+                            <p class="cert-subtitle">Job Simulation</p>
+                            <p class="cert-issuer">TATA (Forage)</p>
+                            <a href="certificates/GenAI Powered Data Analytics Job Simulation Certificate Forage.pdf"
+                                target="_blank" class="bento-link" title="Visit Certificate">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Standard: Deloitte Data -->
+                    <div class="bento-item reveal-bento">
+                        <div class="cert-icon-mini"><i class="fas fa-chart-bar"></i></div>
+                        <div class="bento-content">
+                            <span class="cert-date">5th, Nov 2025</span>
+                            <h3 class="cert-title">Data Analytics</h3>
+                            <p class="cert-issuer">Deloitte (Forage)</p>
+                            <a href="certificates/Data Analytics.pdf" target="_blank" class="bento-link"
+                                title="Visit Certificate">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Standard: Deloitte Cyber -->
+                    <div class="bento-item reveal-bento">
+                        <div class="cert-icon-mini"><i class="fas fa-shield-alt"></i></div>
+                        <div class="bento-content">
+                            <span class="cert-date">5th, Nov 2025</span>
+                            <h3 class="cert-title">Cyber Job Simulation</h3>
+                            <p class="cert-issuer">Deloitte (Forage)</p>
+                            <a href="certificates/Cyber.pdf" target="_blank" class="bento-link"
+                                title="Visit Certificate">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Standard: Infosys Python -->
+                    <div class="bento-item reveal-bento">
+                        <div class="cert-icon-mini"><i class="fab fa-python"></i></div>
+                        <div class="bento-content">
+                            <span class="cert-date">15th Aug 2025</span>
+                            <h3 class="cert-title">Basics Of Python</h3>
+                            <p class="cert-issuer">Infosys Springboard</p>
+                            <a href="certificates/Basics of python-infosys.pdf" target="_blank" class="bento-link"
+                                title="Visit Certificate">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Standard: Infosys AI -->
+                    <div class="bento-item reveal-bento">
+                        <div class="cert-icon-mini"><i class="fas fa-robot"></i></div>
+                        <div class="bento-content">
+                            <span class="cert-date">21st Aug 2025</span>
+                            <h3 class="cert-title">Artificial Intelligence</h3>
+                            <p class="cert-issuer">Infosys Springboard</p>
+                            <a href="certificates/Artificial Intelligence.pdf" target="_blank" class="bento-link"
+                                title="Visit Certificate">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="contact-header">
+                    <span class="sub-heading">GET IN TOUCH</span>
+                    <h2 class="section-title">Let’s <span class="work-text">Work</span> Together</h2>
+                    <p class="contact-subtitle">Have a project in mind or want to discuss modern tech? I'd love to hear
+                        from you.</p>
+                </div>
+
+                <div class="contact-container">
+                    <!-- Left: Contact Details -->
+                    <div class="contact-info reveal-contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:adiatole31@gmail.com">adiatole31@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/adiatole31-beep" target="_blank">https://github.com/adiatole31-beep</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/aditya-atole-257ab4337"
+                                target="_blank">linkedin.com/in/aditya-atole</a>
+                        </div>
+                    </div>
+
+                    <!-- Right: Contact Form -->
+                    <div class="contact-form-wrapper reveal-contact-form">
+                        <form class="contact-form" action="https://formsubmit.co/adiatole31@gmail.com" method="POST">
+                            <!-- FormSubmit Configuration -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_subject" value="New Portfolio Message!">
+
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4"
+                                    placeholder="Tell me about your project..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary form-btn">Send Message <i
+                                    class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Aditya Atole. Crafted using HTML, CSS & JavaScript.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
